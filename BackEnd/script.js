@@ -6,4 +6,11 @@ var data = require('./data-for-script');
 var a = 2;
 console.log("Hello,", data.name);
 console.log("Please confirm the following details are true!")
-console.log(data);
+console.log(data, '\n');
+
+console.log("***********************************************************************");
+
+// Here is an example of using an npm package named 'one-liner-joke'
+// To install any npm package, just open terminal and type "npm i <package_name>"
+var oneLinerJoke = require('one-liner-joke');
+console.log(oneLinerJoke.getRandomJoke());
