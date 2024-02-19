@@ -27,19 +27,12 @@ document.querySelector("#center")
                 "https://wallpaperaccess.com/full/3704677.jpg"];
 
 
-
             // Get a random index
             var randomIndex = Math.floor(Math.random() * images.length);
             var img = document.createElement("img");
             img.src = images[randomIndex];
             div.appendChild(img);
             document.body.appendChild(div);
-
-
-            // var img = document.createElement("img");
-            // img.setAttribute("src", "https://th.bing.com/th/id/OIP.2IjFkyROJKGVYrYQuinPNgHaGj?rs=1&pid=ImgDetMain");
-            // div.appendChild(img);
-            // document.body.appendChild(div);
 
             gsap.to(img, {
                 y: "0",
