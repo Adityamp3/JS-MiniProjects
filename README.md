@@ -4,7 +4,10 @@ Welcome to the JS Mini Projects repository! Here you'll find a collection of sma
 
 ## Projects
 
-1. **To-Do List App**: A simple to-do list application where you can add, remove, and mark tasks as completed.
+1. **Cursor Stocker** : A simple object that follows the mouse everywhere having an ease and delay.
+2. **Mousemove Girgit** : A rectangular div which changes color gradually from red to blue as the mouse move from one end to another.
+3. **Pop-Pics** : A cool way of popping pictures on mouse move by making an array of images.
+4. **To-Do List App** : A To-Do list application where you can add, remove, and mark tasks as completed.
 
 Feel free to explore each project folder for more details and implementation!
 
